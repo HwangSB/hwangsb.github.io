@@ -25,7 +25,7 @@ result 창으로 이동하도록 action을 걸어준다.
 <h1>Calculator</h1>
 <h3>enter your expression</h3>
 
-<form action="{%url 'result'%}">
+<form action="{% raw %}{%url 'result'%}{% endraw %}">
     <textarea cols="50" rows="1" name="expression_text"></textarea>
     <br/>
     <input type="submit" value="calculate!">
@@ -41,7 +41,7 @@ home.html에서 입력한 수식과 계산 결과를 result 리스트로 받아 
 ```html
 <h1>Result</h1>
 <h3>{{result.0}} = {{result.1}}</h3>
-<form action="{%url 'home'%}">
+<form action="{% raw %}{%url 'home'%}{% endraw %}">
     <input type="submit" value="go to home">
 </form>
 ```
