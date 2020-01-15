@@ -112,6 +112,8 @@ home.html
 
 `django_app > views.py`
 
+위 파일들이 주로 변경되는 파일이다.
+
 
 # Django에서 특수하게 사용되는 문법
 html 파일 안에 Python과의 연동 편의성을 위해 특수한 문법을 제공한다.
