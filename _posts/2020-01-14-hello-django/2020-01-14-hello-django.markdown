@@ -113,7 +113,6 @@ home.html
 `django_app > views.py`
 
 
-
 # Django에서 특수하게 사용되는 문법
 html 파일 안에 Python과의 연동 편의성을 위해 특수한 문법을 제공한다.
 
