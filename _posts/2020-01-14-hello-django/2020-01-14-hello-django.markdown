@@ -110,11 +110,11 @@ html 파일 안에 Python과의 연동 편의성을 위해 특수한 문법을 �
 `{{value}}`
 Python 값을 출력한다.
 
-`{% begin python keyword %}`
+`{% raw %}{% begin python keyword %}{% endraw %}`
 Python 키워드를 시작하는 부분
 ex) for, if
 
-`{% end python keyword %}`
+`{% raw %}{% end python keyword %}{% endraw %}`
 Python 키워드를 끝내는 부분
 ex) endfor endif
 
