@@ -65,15 +65,6 @@ python manage.py startapp django_app
 ```
 
 
-## 홈페이지 만들기
-Django App 폴더 안에 templates 폴더를 만들고 home.html 파일을 추가한다.
-
-home.html
-```html
-<h1>hello django!</h1>
-```
-
-
 # Django 프로젝트 구조
 ## Project
 ```text
@@ -96,23 +87,21 @@ home.html
         home.html
     __init__.py
     admin.py
-    apps.py
-    models.py
     tests.py
     views.py
 ```
 
 
 ## 핵심 파일
+위 파일들이 주로 변경되는 파일이다.
+
 `django_project > urls.py`
 
 `django_project > settings.py`
 
-`django_app > tempates > home.html`
-
 `django_app > views.py`
 
-위 파일들이 주로 변경되는 파일이다.
+`django_app > models.py`
 
 
 # Django에서 특수하게 사용되는 문법
@@ -136,3 +125,11 @@ ex) endfor endif
 [나의 첫 번째 Django 프로젝트!][https://tutorial.djangogirls.org/ko/django_start_project/]
 
 [파이썬 웹프로그래밍 - 장고(Django)설치][https://offbyone.tistory.com/77]
+
+
+# Development Environment
+| Type | OS | IDE | Language | Framework |
+|:--|:--:|:--:|:--:|--:|
+| Name | Windows 10 64bit | Visual Studio Code | Python | Django |
+| Version | 1909 | 1.41.1 | 3.8.1 | 3.0.2 |
+| Build | 18363.418 | | |
