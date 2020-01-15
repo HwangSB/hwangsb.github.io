@@ -68,6 +68,66 @@ python manage.py startapp django_app
 ## 홈페이지 만들기
 Django App 폴더 안에 templates 폴더를 만들고 home.html 파일을 추가한다.
 
+home.html
+```html
+<h1>hello django!</h1>
+```
+
+
+# Django 프로젝트 구조
+## Project
+```text
+> django_project/
+    __init__.py
+    asgi.py
+    apps.py
+    models.py
+    tests.py
+    views.py
+```
+
+
+## App
+```text
+> django_app/
+    > migrations/
+        __init__.py
+    > templates/
+        home.html
+    __init__.py
+    admin.py
+    apps.py
+    models.py
+    tests.py
+    views.py
+```
+
+
+## 핵심 파일
+`django_project > urls.py`
+
+`django_project > settings.py`
+
+`django_app > tempates > home.html`
+
+`django_app > views.py`
+
+
+
+# Django에서 특수하게 사용되는 문법
+html 파일 안에 Python과의 연동 편의성을 위해 특수한 문법을 제공한다.
+
+`{{value}}`
+Python 값을 출력한다.
+
+`{%begin python keyword%}`
+Python 키워드를 시작하는 부분
+ex) for, if
+
+`{%end python keyword%}`
+Python 키워드를 끝내는 부분
+ex) endfor endif
+
 
 # 참고
 [Django 설치하기][https://tutorial.djangogirls.org/ko/django_installation/]
