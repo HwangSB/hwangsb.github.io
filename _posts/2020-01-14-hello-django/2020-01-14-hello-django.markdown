@@ -110,21 +110,21 @@ html 파일 안에 Python과의 연동 편의성을 위해 특수한 문법을 �
 `{{value}}`
 Python 값을 출력한다.
 
-`{%begin python keyword%}`
+`{% begin python keyword %}`
 Python 키워드를 시작하는 부분
 ex) for, if
 
-`{%end python keyword%}`
+`{% end python keyword %}`
 Python 키워드를 끝내는 부분
 ex) endfor endif
 
 
 # 참고
-[Django 설치하기][https://tutorial.djangogirls.org/ko/django_installation/]
+[Django 설치하기](https://tutorial.djangogirls.org/ko/django_installation/)
 
-[나의 첫 번째 Django 프로젝트!][https://tutorial.djangogirls.org/ko/django_start_project/]
+[나의 첫 번째 Django 프로젝트!](https://tutorial.djangogirls.org/ko/django_start_project/)
 
-[파이썬 웹프로그래밍 - 장고(Django)설치][https://offbyone.tistory.com/77]
+[파이썬 웹프로그래밍 - 장고(Django)설치](https://offbyone.tistory.com/77)
 
 
 # Development Environment

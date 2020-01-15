@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Django Caculator"
-date:   2020-01-14 17:00:00 +0900
+date:   2020-01-15 17:00:00 +0900
 categories: jekyll update
 ---
 # 온라인 계산기 만들기
