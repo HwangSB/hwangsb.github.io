@@ -98,6 +98,7 @@ urlpatterns = [
 
 
 # 결과
+
 | ![image](django_calculator_0.png) |
 |:--:|
 | home 페이지 |
@@ -108,6 +109,7 @@ urlpatterns = [
 
 
 # Development Environment
+
 | Type | OS | IDE | Language | Framework |
 |:--|:--:|:--:|:--:|--:|
 | Name | Windows 10 64bit | Visual Studio Code | Python | Django |

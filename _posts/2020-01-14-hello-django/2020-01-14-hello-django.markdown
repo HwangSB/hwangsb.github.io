@@ -128,6 +128,7 @@ ex) endfor endif
 
 
 # Development Environment
+
 | Type | OS | IDE | Language | Framework |
 |:--|:--:|:--:|:--:|--:|
 | Name | Windows 10 64bit | Visual Studio Code | Python | Django |
