@@ -48,7 +48,7 @@ cd django_project
 python manage.py runserver
 ```
 
-| ![image](hello_django_0.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-14-hello-django/hello_django_0.png) |
 |:--:|
 | 127.0.0.1:8000으로 접속한 모습 |
 
