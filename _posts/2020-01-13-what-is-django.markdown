@@ -39,4 +39,3 @@ URL을 통해 들어온 요청을 받고 Model, Template과 통신하여 화면�
 실제로 화면에 보여지게될 레이아웃 구조를 정의한다.
 
 `templates/*.html`
-

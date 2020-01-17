@@ -99,11 +99,11 @@ urlpatterns = [
 
 # 결과
 
-| ![image](https://hwangsb.github.io/assets/immages/2020-01-15-django-calculator/django_calculator_0.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-15-django-calculator/django_calculator_0.png) |
 |:--:|
 | home 페이지 |
 
-| ![image](https://hwangsb.github.io/assets/immages/2020-01-15-django-calculator/django_calculator_1.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-15-django-calculator/django_calculator_1.png) |
 |:--:|
 | result 페이지 |
 
