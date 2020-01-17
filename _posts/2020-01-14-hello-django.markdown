@@ -133,4 +133,4 @@ ex) endfor endif
 |:--|:--:|:--:|:--:|:--:|
 | Name | Windows 10 64bit | Visual Studio Code | Python | Django |
 | Version | 1909 | 1.41.1 | 3.8.1 | 3.0.2 |
-| Build | 18363.418 | | |
+| Build | 18363.418 |
