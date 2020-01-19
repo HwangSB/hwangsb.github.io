@@ -10,13 +10,13 @@ categories: jekyll update
 
 `python3 -m venv [directory_name]`
 
-```console
+```zsh
 python3 -m venv venv
 ```
 
 현재 폴더에 venv를 활성화 시킨다.
 
-```console
+```zsh
 venv/Scripts/activate.bat
 ```
 
@@ -25,7 +25,7 @@ venv/Scripts/activate.bat
 ## Django 설치
 pip 명령을 사용하여 Django를 설치한다.
 
-```console
+```zsh
 pip install django
 ```
 
@@ -35,7 +35,7 @@ Django Project를 생성한다.
 
 `django-admin startproject [project_name]`
 
-```console
+```zsh
 django-admin startproject django_project
 ```
 
@@ -43,7 +43,7 @@ django-admin startproject django_project
 ## Django 서버 실행
 프로젝트 생성 후 동작을 확인한다.
 
-```console
+```zsh
 cd django_project
 python manage.py runserver
 ```
@@ -60,7 +60,7 @@ Django App을 생성한다.
 
 `python manage.py startapp [app_name]`
 
-```console
+```zsh
 python manage.py startapp django_app
 ```
 

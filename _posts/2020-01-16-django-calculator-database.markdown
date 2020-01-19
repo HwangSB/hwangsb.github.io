@@ -19,6 +19,13 @@ models.Model을 상속받는 Expression class 생성한다.
 ```
 
 
+## 데이터 migration 생성 & migrate
+```zsh
+python manage.py makemigration
+python manage.py migrate
+```
+
+
 ## views.py
 데이터베이스에 저장된 객체를 읽어 home.html에 paramater로 전달한다.(Read)
 
@@ -46,6 +53,18 @@ models.Model을 상속받는 Expression class 생성한다.
 
 
 ## home.html
+```html
+<!-- some html code -->
+```
+
+
+## update-history.html
+```html
+<!-- some html code -->
+```
+
+
+## delete-history.html
 ```html
 <!-- some html code -->
 ```
