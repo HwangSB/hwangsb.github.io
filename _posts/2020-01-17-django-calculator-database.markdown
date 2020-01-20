@@ -268,46 +268,46 @@ Bootstrap을 적용하여 문서들을 만들어 준다.
 
 ## 결과
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_0.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_0.png) |
 |:--:|
 | home 페이지에서 수식 입력 후 Calculate! 버튼 클릭 |
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_1.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_1.png) |
 |:--:|
 | create-history 페이지 |
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_2.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_2.png) |
 |:--:|
 | home 페이지에 입력한 수식이 계산 결과와 함께 추가된 모습 |
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_3.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_3.png) |
 |:--:|
 | home 페이지에서 첫번째 항목의 삭제 버튼 클릭 |
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_4.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_4.png) |
 |:--:|
 | delete-history 페이지 |
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_5.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_5.png) |
 |:--:|
 | home 페이지에 첫번째 항목이 삭제된 모습 |
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_6.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_6.png) |
 |:--:|
 | home 페이지에서 마지막 항목의 수정 버튼 클릭 |
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_7.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_7.png) |
 |:--:|
 | update-history 페이지 |
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_8.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_8.png) |
 |:--:|
 | home 페이지에 마지막 항목이 1 + 1 = 2로 수정된 모습 |
 
 
 ## db.sqlite3
 
-| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_caluclator_database_9.png) |
+| ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_9.png) |
 |:--:|
 | db.sqlite3에 저장된 모습 |
 
