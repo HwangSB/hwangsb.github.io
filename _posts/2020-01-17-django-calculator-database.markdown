@@ -266,6 +266,29 @@ Bootstrap을 적용하여 문서들을 만들어 준다.
 ```
 
 
+## urls.py
+url을 view와 연결시켜준다.
+
+```python
+from django.contrib import admin
+from django.urls import path
+from django_app import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    # Root URL로 접속시 views의 home 함수로 연결
+    path('', views.home, name='home'),
+    # create-history URL로 접속시 views의 create_history 함수로 연결
+    path('create-history/', views.create_history, name='create-history'),
+    # delete-history URL로 접속시 views의 delete_history 함수로 연결
+    path('delete-history/', views.delete_history, name='delete-history'),
+    # update-history URL로 접속시 views의 update_history 함수로 연결
+    path('update-history/', views.update_history, name='update-history'),
+]
+
+```
+
+
 ## 결과
 
 | ![image](https://hwangsb.github.io/assets/images/2020-01-17-django-calculator-database/django_calculator_database_0.png) |
