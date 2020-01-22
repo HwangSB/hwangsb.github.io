@@ -9,7 +9,13 @@ categories: jekyll update
 
 | ![image](https://hwangsb.github.io/assets/images/2020-01-20-django-static-and-media/django_static_and_media_0.png) |
 |:--:|
-| home 페이지에서 수식 입력 후 Calculate! 버튼 클릭 |
+| 블로그 사이트 |
+
+
+# 참고
+[[Deploy] Django 프로젝트 배포하기 - 4. Static 파일](https://nachwon.github.io/django-deploy-4-static/)
+[장고 미디어 파일 (Media Files) - 사진업로드, 파일서빙](https://wayhome25.github.io/django/2017/05/10/media-file/)
+[더미 이미지 넣기](https://placeholder.com/)
 
 
 # Development Environment
