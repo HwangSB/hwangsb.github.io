@@ -14,7 +14,9 @@ categories: jekyll update
 
 # 참고
 [[Deploy] Django 프로젝트 배포하기 - 4. Static 파일](https://nachwon.github.io/django-deploy-4-static/)
+
 [장고 미디어 파일 (Media Files) - 사진업로드, 파일서빙](https://wayhome25.github.io/django/2017/05/10/media-file/)
+
 [더미 이미지 넣기](https://placeholder.com/)
 
 
