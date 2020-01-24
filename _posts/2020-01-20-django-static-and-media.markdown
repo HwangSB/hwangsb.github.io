@@ -11,6 +11,23 @@ categories: jekyll update
 |:--:|
 | 블로그 사이트 |
 
+# static(정적 파일) 관리
+## settings.py
+...
+
+
+## app에 static 폴더 추가
+...
+
+
+# media(동적 파일) 관리
+## settings.py
+...
+
+
+## urls.py
+...
+
 
 # 참고
 [[Deploy] Django 프로젝트 배포하기 - 4. Static 파일](https://nachwon.github.io/django-deploy-4-static/)
