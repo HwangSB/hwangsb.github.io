@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Template Extending"
-date:   2020-01-20 17:00:00 +0900
+date:   2020-01-21 17:00:00 +0900
 categories: jekyll update
 ---
 # 개요
@@ -11,7 +11,7 @@ categories: jekyll update
 ## base.html
 모든 화면에서 Navbar와 Sticky footer를 공통으로 사용한다.
 
-공통으로 사용할 부분만 코드를 작성하고 바뀔 부분은 `{% raw %} {% block name %} {% endraw %}` 과 `{% raw %} {% endblock %} {% endraw %}` 으로 감싸준다.
+공통으로 사용할 부분만 코드를 작성하고 바뀔 부분은 {% raw %} {% block name %} {% endraw %} 과 {% raw %} {% endblock %} {% endraw %} 으로 감싸준다.
 
 ```html
 <!DOCTYPE html>
