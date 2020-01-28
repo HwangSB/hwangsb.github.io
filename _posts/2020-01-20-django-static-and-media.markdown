@@ -12,7 +12,7 @@ categories: jekyll update
 ## home.html
 상단에 배너이미지를 표시하고 포스팅을 할 때 카드를 추가한다.
 ```html
-{% load static %}
+{% raw %} {%  load static  %} {% endraw %}
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -46,7 +46,7 @@ categories: jekyll update
         </div>
     </nav>
 
-    <img class="w-100 h-100" src="{% static 'banner.png' %}" alt="...">
+    <img class="w-100 h-100" src="{% raw %} {%  static 'banner.png'  %} {% endraw %}" alt="...">
     <div class="jumbotron jumbotron-fluid mb-0">
         <div class="container">
             <h1 class="display-4">My Awesome Blog</h1>
@@ -58,14 +58,14 @@ categories: jekyll update
     <div class="py-5">
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3">
-                {% for post in posts %}
+                {% raw %} {%  for post in posts  %} {% endraw %}
                 <div class="col mb-4">
                     <div class="card h-100">
-                        {% if post.media %}
+                        {% raw %} {%  if post.media  %} {% endraw %}
                         <img src="{{post.media.url}}" class="card-img-top" alt="...">
-                        {% else %}
+                        {% raw %} {%  else  %} {% endraw %}
                         <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                        {% endif %}
+                        {% raw %} {%  endif  %} {% endraw %}
                         <div class="card-body">
                             <h5 class="card-title">{{post.title}}</h5>
                             <p class="card-text">{{post.content}}</p>
@@ -74,7 +74,7 @@ categories: jekyll update
                         </div>
                     </div>
                 </div>
-                {% endfor %}
+                {% raw %} {%  endfor  %} {% endraw %}
             </div>
         </div>
     </div>
