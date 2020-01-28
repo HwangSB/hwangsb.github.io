@@ -126,6 +126,12 @@ static 폴더 아래에 banner.png 파일을 추가한다.
 | banner.png 이미지 |
 
 
+## static 파일 모으기
+이 글에서는 개발모드로 웹사이트를 실행하기 때문에 collectstatic을 생략했지만 배포시에는 모으기를 해줘야 한다.
+
+[Deploy] Django 프로젝트 배포하기 - 4. Static 파일](https://nachwon.github.io/django-deploy-4-static/) 글을 참고했다.
+
+
 ## 결과
 Bootstrap을 사용하여 작은 화면에서도 효과적으로 표시된다.
 
