@@ -14,7 +14,7 @@ Manage Static & Media 포스팅에 사용한 코드를 약간 수정한다.
 모든 화면에서 Navbar와 Sticky footer를 공통으로 사용한다.
 
 공통으로 사용할 부분만 코드를 작성하고 바뀔 부분은 
-{% block name %} {% endraw %} 과 {% raw %} {% endblock %} {% endraw %} 으로 감싸준다.
+{% raw %} {%  block name  %} {% endraw %} {% raw %} {%  endraw  %} {% endraw %} 과 {% raw %} {%  raw  %} {% endraw %} {% raw %} {%  endblock  %} {% endraw %} {% raw %} {%  endraw  %} {% endraw %} 으로 감싸준다.
 
 ```html
 <!DOCTYPE html>
@@ -49,9 +49,9 @@ Manage Static & Media 포스팅에 사용한 코드를 약간 수정한다.
         </div>
     </nav>
 
-    {% block content %}
+    {% raw %} {%  block content  %} {% endraw %}
     <!-- some content for template extending... -->
-    {% endblock %}
+    {% raw %} {%  endblock  %} {% endraw %}
 
     <footer class="text-muted fixed-bottom bg-light">
         <div class="container">
@@ -78,14 +78,14 @@ Manage Static & Media 포스팅에 사용한 코드를 약간 수정한다.
 
 
 ## home.html
-{% extends 'base.html' %} 로 확장할 템플릿을 명시해주고 {% block content %} 와 {% endblock %} 으로 코드가 어디에 들어갈 내용인지 범위를 지정해준다.
+{% raw %} {%  extends 'base.html'  %} {% endraw %} 로 확장할 템플릿을 명시해주고 {% raw %} {%  block content  %} {% endraw %} 와 {% raw %} {%  endblock  %} {% endraw %} 으로 코드가 어디에 들어갈 내용인지 범위를 지정해준다.
 
 ```html
-{% extends 'base.html' %}
-{% load static %}
+{% raw %} {%  extends 'base.html'  %} {% endraw %}
+{% raw %} {%  load static  %} {% endraw %}
 
-{% block content %}
-<img class="w-100 h-100" src="{% static 'banner.png' %}" alt="...">
+{% raw %} {%  block content  %} {% endraw %}
+<img class="w-100 h-100" src="{% raw %} {%  static 'banner.png'  %} {% endraw %}" alt="...">
 <div class="jumbotron jumbotron-fluid mb-0">
     <div class="container">
         <h1 class="display-4">My Awesome Blog</h1>
@@ -97,14 +97,14 @@ Manage Static & Media 포스팅에 사용한 코드를 약간 수정한다.
 <div class="py-5">
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
-            {% for post in posts %}
+            {% raw %} {%  for post in posts  %} {% endraw %}
             <div class="col mb-4">
                 <div class="card h-100">
-                    {% if post.media %}
+                    {% raw %} {%  if post.media  %} {% endraw %}
                     <img src="{{post.media.url}}" class="card-img-top" alt="...">
-                    {% else %}
+                    {% raw %} {%  else  %} {% endraw %}
                     <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                    {% endif %}
+                    {% raw %} {%  endif  %} {% endraw %}
                     <div class="card-body">
                         <h5 class="card-title">{{post.title}}</h5>
                         <p class="card-text">{{post.content}}</p>
@@ -113,11 +113,11 @@ Manage Static & Media 포스팅에 사용한 코드를 약간 수정한다.
                     </div>
                 </div>
             </div>
-            {% endfor %}
+            {% raw %} {%  endfor  %} {% endraw %}
         </div>
     </div>
 </div>
-{% endblock %}
+{% raw %} {%  endblock  %} {% endraw %}
 ```
 
 
