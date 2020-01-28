@@ -13,8 +13,7 @@ Manage Static & Media 포스팅에 사용한 코드를 약간 수정한다.
 ## base.html
 모든 화면에서 Navbar와 Sticky footer를 공통으로 사용한다.
 
-공통으로 사용할 부분만 코드를 작성하고 바뀔 부분은 
-{% raw %} {%  block name  %} {% endraw %} {% raw %} {%  endraw  %} {% endraw %} 과 {% raw %} {%  raw  %} {% endraw %} {% raw %} {%  endblock  %} {% endraw %} {% raw %} {%  endraw  %} {% endraw %} 으로 감싸준다.
+공통으로 사용할 부분만 코드를 작성하고 바뀔 부분은 {% raw %} {%  block name  %} {% endraw %} 과 {% raw %} {%  endblock  %} {% endraw %} 으로 감싸준다.
 
 ```html
 <!DOCTYPE html>
