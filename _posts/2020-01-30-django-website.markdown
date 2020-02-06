@@ -8,6 +8,25 @@ categories: jekyll update
 영상처리 연구실 홈페이지를 만든다.
 
 
+# 소개 페이지
+
+| ![image](https://hwangsb.github.io/assets/images/2020-01-30-django-website/django_website_0.png) |
+|:--:|
+| 연구실 소개 커버 페이지(PC) |
+
+| ![image](https://hwangsb.github.io/assets/images/2020-01-30-django-website/django_website_1.png) |
+|:--:|
+| 연구실 소개 설명 페이지(PC) |
+
+| ![image](https://hwangsb.github.io/assets/images/2020-01-30-django-website/django_website_2.png) |
+|:--:|
+| 연구실 소개 커버 페이지(Mobile) |
+
+| ![image](https://hwangsb.github.io/assets/images/2020-01-30-django-website/django_website_3.png) |
+|:--:|
+| 연구실 소개 설명 페이지(Mobile) |
+
+
 # Development Environment
 
 | Type | OS | IDE | Language | Framework | Library |
