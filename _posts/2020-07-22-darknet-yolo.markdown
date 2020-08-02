@@ -47,6 +47,50 @@ darknet.exe detector demo [data file] [cfg file] [weights file] [webcam]
 ## 임계값 설정
 -thresh [0.0-1.0]
 
+# 데이터 증식
+위치, 크기, 왜곡, 회전, 반전, 색상, 확대
+
+## keras
+```python
+import os
+from keras.preprocessing.image import ImageDataGenerator
+from keras.preprocessing.image import array_to_img, img_to_array, load_img
+
+data_generator = ImageDataGenerator(
+    rotation_range=45,
+    width_shift_range=0.2,
+    height_shift_range=0.2,
+    rescale=1.0 / 255,
+    shear_range=0.2,
+    zoom_range=0.2,
+    horizontal_flip=True,
+    fill_mode='nearest'
+)
+
+files = [f for f in os.listdir('data') if os.path.isfile(os.path.join('data', f))]
+
+index = 0
+
+for file_name in files:
+    print(file_name)
+    img = load_img('data/' + file_name, target_size=(1440, 1920))
+    x = img_to_array(img)
+    x = x.reshape((1,) + x.shape)
+
+    i = 0
+    for batch in data_generator.flow(x, batch_size=1, save_to_dir='preview', save_prefix='output_' + str(index), save_format='jpg'):
+        i += 1
+        if i >= 20:
+            break
+
+    index += 1
+```
+
+## albumentations
+```python
+# TODO: albumentations used code
+```
+
 # Video Stopped 에러 발생시
 opencv_videoioffmpeg440_64.dll을 darknet.exe와 같은 폴더 안에 넣기
 
