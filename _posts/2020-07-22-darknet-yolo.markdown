@@ -88,7 +88,7 @@ for file_name in files:
 
 ## albumentations
 ```python
-# TODO: albumentations used code
+# TODO: albumentations used code.
 ```
 
 # Video Stopped 에러 발생시
